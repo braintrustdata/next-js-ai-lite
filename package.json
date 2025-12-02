@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@ai-sdk/openai": "^0.0.40",
+    "@braintrust/otel": "^0.1.0",
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-slot": "^1.1.0",
     "@radix-ui/react-switch": "^1.1.0",
+    "@vercel/otel": "^2.1.0",
     "ai": "^3.3.0",
     "braintrust": "1.0.0-rc.0",
     "class-variance-authority": "^0.7.0",

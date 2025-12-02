@@ -12,7 +12,7 @@ import { initLogger, wrapAISDK } from "braintrust";
 
 initLogger({ projectName: "qa-olmo-next-js-ai-lite" });
 
-const { generateText, streamText } = wrapAISDK(ai) as typeof ai;
+const { generateText, streamText } = wrapAISDK(ai);
 
 export interface Message {
   role: "user" | "assistant";
